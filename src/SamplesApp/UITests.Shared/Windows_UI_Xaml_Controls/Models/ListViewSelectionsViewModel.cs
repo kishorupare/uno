@@ -10,7 +10,6 @@ namespace Uno.UI.Samples.Presentation.SamplePages
 
 		public ListViewSelectionsViewModel(CoreDispatcher dispatcher) : base(dispatcher)
 		{
-			ClearSelection = CreateCommand(ExecuteClearSelection);
 		}
 
 		public string SelectedName
@@ -23,12 +22,7 @@ namespace Uno.UI.Samples.Presentation.SamplePages
 			}
 		}
 
-		public ICommand ClearSelection { get; }
-
-		private void ExecuteClearSelection()
-		{
-			SelectedName = "";
-		}
+		public ICommand ClearSelection => GetOrCreateCommand(() => SelectedName = "");
 
 		private string[] GetSampleNames()
 		{
