@@ -127,6 +127,7 @@ namespace SamplesApp
 						{ "Uno", LogLevel.Warning },
 						{ "Windows", LogLevel.Warning },
 						// { "Uno.Foundation.WebAssemblyRuntime", LogLevel.Debug },
+						{ "Windows.ApplicationModel.Resources", LogLevel.Debug }, 
 						
 						// Generic Xaml events
 						//{ "Windows.UI.Xaml", LogLevel.Debug },

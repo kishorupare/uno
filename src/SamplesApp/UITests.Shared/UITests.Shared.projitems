@@ -773,6 +773,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\Rating\RatingControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\ScrollViewerTests\Hosted_ScrollViewer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -2336,6 +2340,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\Progress\ProgressRing.xaml.cs">
       <DependentUpon>ProgressRing.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\Rating\RatingControl.xaml.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\ScrollViewerTests\Hosted_ScrollViewer.xaml.cs">
       <DependentUpon>Hosted_ScrollViewer.xaml</DependentUpon>
     </Compile>
@@ -3110,6 +3115,12 @@
     </Compile>
     <Compile Update="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\GridTestsControl\Simpletwocolumnsplitgrid.xaml.cs">
       <DependentUpon>Simpletwocolumnsplitgrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="N:\uno\dev\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\Rating\RatingControl.xaml.cs">
+      <DependentUpon>RatingControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="N:\uno\dev\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\Rating\RatingControlPage.xaml.cs">
+      <DependentUpon>RatingControlPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

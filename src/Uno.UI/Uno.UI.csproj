@@ -343,6 +343,11 @@
 
 	<ItemGroup>
 	  <UpToDateCheckInput Remove="Extensions\NSBezierPathExtensions.iOSmacOS.cs" />
+	  <UpToDateCheckInput Remove="UI\Xaml\Controls\RatingControl\PortStatusAttribute.cs" />
+	  <UpToDateCheckInput Remove="UI\Xaml\Controls\RatingControl\RatingControl.Members.cs" />
+	  <UpToDateCheckInput Remove="UI\Xaml\Controls\RatingControl\RatingItemFontInfo.cs" />
+	  <UpToDateCheckInput Remove="UI\Xaml\Controls\RatingControl\RatingItemImageInfo.cs" />
+	  <UpToDateCheckInput Remove="UI\Xaml\Controls\RatingControl\RatingItemInfo.cs" />
 	</ItemGroup>
 
 	<Target Name="GetPackagingOutputs" Condition=" '$(TargetFramework)' == 'uap10.0' " />
