@@ -187,6 +187,7 @@
 * `ComboBox` drop down is now placed following a logic which is closer to UWP and it longer flickers when it appears (especilly on WASM)
 * Date and Time Picker Content fix and Refactored to use PickerFlyoutBase (to resemble UWP implementation)
 * `LinearGradientBrush.EndPoint` now defaults to (1,1) to match UWP
+* Fix ComboBox disappearing items when items are views (#1078)
 
 ## Release 1.44.0
 
