@@ -5,7 +5,7 @@
 * Add support for `Windows.Phone.Devices.Notification.VibrationDevice` API on iOS, Android and WASM
 
 ### Breaking changes
-* 
+*
 
 ### Bug fixes
 * [iOS] Area of view outside Clip rect now allows touch to pass through, this fixes NavigationView not allowing touches to children (#1018)
@@ -13,6 +13,7 @@
 
 ## Release 1.45.0
 ### Features
+* Add support for `Windows.System.Profile.AnalyticsInfo` API on iOS and Android
 * Add support for `Windows.System.Display.DisplayRequest` API on iOS and Android
 * Add support for the following `Windows.System.Power.PowerManager` APIs on iOS and Android:
     - BatteryStatus
